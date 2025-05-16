@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: go-svc
+spec:
+  selector:
+    app: go-app
+  type: ClusterIP                      # ClusterIP, NodePort, LoadBalancer, ExternalName
+  #  sessionAffinity: ClientIP
+  ports:
+  - port: 80
+    targetPort: 8080
