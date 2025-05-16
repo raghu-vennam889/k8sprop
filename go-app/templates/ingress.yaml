@@ -15,3 +15,10 @@ spec:
             name: go-svc
             port:
               number: 80
+      - pathType: Prefix
+        path: "/home"
+        backend:
+          service:
+            name: go-svc
+            port:
+              number: 80        
