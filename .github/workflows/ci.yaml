@@ -98,4 +98,4 @@ jobs:
         git commit -m "Update tag in Helm chart"
         git push
 
-  ##
+  #
