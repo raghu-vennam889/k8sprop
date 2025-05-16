@@ -96,5 +96,4 @@ jobs:
         git config --global user.name "Raghuram V"
         git add go-app/values.yaml
         git commit -m "Update tag in Helm chart"
-        git remote set-url origin https://x-access-token:${{ secrets.TOKEN }}@github.com/raghu-vennam889/k8sprop.git
         git push
