@@ -97,3 +97,5 @@ jobs:
         git add go-app/values.yaml
         git commit -m "Update tag in Helm chart"
         git push
+
+  ##
